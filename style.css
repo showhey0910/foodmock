@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgrey;
+  color: #333;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: blue;
+}
+
+img {
+  max-width: 100%;
+}
+
+.foodmock {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 50px;  
+}
+
+header {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: orange;
+
+}
+
+.header-nav {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.header-nav-items {
+  display: inline-flex;
+}
+
+.header-nav-item {
+  padding: 30px;
+  /* border-left: 1px solid #aaa; */
+}
+
+.tab-mypage {
+  /* border-right: 1px solid #aaa; */
+}
+
+.selected {
+  color: blue;
+}
+
+#main {
+  padding-bottom: 77px;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 30px;
+  background-color: lightgrey;
+}
+
+.title {
+  text-align: center;
+  padding: 15px;
+  font-size: 30px;
+}
+
+.timeline-item {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.timeline-like {
+  border: 5px solid pink;
+}
+
+.timeline-went {
+  border: 5px solid lightblue;
+}
+
+.timeline-head {
+  display: inline-flex;
+  margin-bottom: 15px;
+}
+
+.user-img {
+  width: 40px;
+  border-radius: 20px;
+}
+
+.post-title {
+  padding-left: 10px;
+  vertical-align: middle;
+  height: 40px;
+}
+
+.shop {
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.post-img {
+
+}
